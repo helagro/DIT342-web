@@ -1,0 +1,14 @@
+.course-item {
+    margin: 0 auto 1.3em auto;
+    max-width: 50em;
+    border: .1em solid var(--primary-dark);
+    padding: 2.2em 12%;
+    position: relative;
+    box-shadow: .02em .02em .1em #838383dd;
+    transition: box-shadow .2s;
+    background-color: var(--soft-white);
+}
+  
+.course-item:hover {
+    box-shadow: .09em .09em .23em #838383dd;
+}

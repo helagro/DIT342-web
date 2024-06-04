@@ -1,0 +1,19 @@
+{
+  "name": "backend-frontend",
+  "version": "0.1.0",
+  "description": "This collection package integrates the server and client for deployment.",
+  "main": "server/app.js",
+  "scripts": {
+    "postinstall": "npm install --prefix server && npm install --prefix client && npm run build --prefix client"
+  },
+  "engines": {
+    "npm": "9.x",
+    "node": "18.x"
+  },
+  "dependencies": {
+    "filepond-plugin-file-encode": "^2.1.11",
+    "filepond-plugin-file-validate-type": "^1.2.8",
+    "filepond-plugin-image-preview": "^4.6.11",
+    "vue-filepond": "^7.0.4"
+  }
+}

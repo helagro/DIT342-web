@@ -1,0 +1,17 @@
+.round-btn {
+  border-radius: 50%;
+  width: 3em;
+  height: 3em;
+  text-align: center;
+  background-color: white;
+  border: .12em solid #838383;
+  transition: box-shadow .1s;
+}
+
+.round-btn:hover {
+  box-shadow: .12em .12em .12em #838383;
+}
+
+.round-btn:active {
+  box-shadow: none;
+}
